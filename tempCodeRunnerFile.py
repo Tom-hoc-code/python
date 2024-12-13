@@ -1,0 +1,1 @@
+df.drop(df[df.iloc[:, 0] == selected_values[0]].index, inplace=True)
